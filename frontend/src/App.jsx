@@ -4,7 +4,7 @@ import { UploadCloud, CheckCircle, Package, RefreshCw, Smartphone, Image as Imag
 import html2canvas from 'html2canvas'
 import './index.css'
 
-const API_URL = `https://all-eagles-go.loca.lt`
+const API_URL = `http://localhost:8000`
 
 // Bypass localtunnel warning
 axios.defaults.headers.common['Bypass-Tunnel-Reminder'] = 'true';
